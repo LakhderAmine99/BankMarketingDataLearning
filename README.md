@@ -12,6 +12,10 @@ Summary: A collection of tools for machine learning
 
 ## Installation
 
+you must use a vitual environment to install the packages. (preferable).
+
+or you can use the following commands to install the packages with the exact version:
+
     - pip install requirements.txt
 
 ## Usage
