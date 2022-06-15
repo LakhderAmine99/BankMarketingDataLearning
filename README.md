@@ -1,8 +1,8 @@
 # ML-Workshop
 
-## Version: 0.1.0
+Version: 0.1.0
 
-### Summary: A collection of tools for machine learning
+Summary: A collection of tools for machine learning
 
 ## Package
 
