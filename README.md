@@ -1,9 +1,9 @@
 # ML-Workshop
 
-    ### Name: ml-workshop
-    ### Version: 0.1.0
+### Name: ml-workshop
+### Version: 0.1.0
 
-    ### Summary: A collection of tools for machine learning
+### Summary: A collection of tools for machine learning
 
 ## Package
 
@@ -21,7 +21,7 @@ run the following command to run the application:
 
     - python app.py
 
-or you can run the jpyter note book directly.
+or you can run the jupyter note book directly.
 
 ## Author
 
