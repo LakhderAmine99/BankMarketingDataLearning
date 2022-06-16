@@ -32,6 +32,8 @@ class BankMarketingDataProcessor():
         RTU_Data = pd.DataFrame(numerical_data)
         RTU_Data['y'] = self.data.y
         
+        RTU_Data.to_csv("./data/pre_processed_bank_data.csv")
+        
         return RTU_Data
     
     def split(self):
@@ -79,8 +81,10 @@ class BankMarketingDataProcessor():
     def getClusteringData(self):
         
         clustering_data = self.getRTUData()
-        
+
         clustering_data = clustering_data.loc[:,clustering_data.columns != 'y']
+        
+        clustering_data.to_csv("./data/clustering_bank_data.csv")
                 
         return clustering_data
         
