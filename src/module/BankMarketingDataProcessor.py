@@ -1,20 +1,31 @@
+import pandas as pd
 
 class BankMarketingDataProcessor():
     
     def __init__(self,data=None):
         self.data = data
         
-    def engineer(self):
+        self.train_data = None
+        self.test_data = None
+        
+    def clean(self):
         return
     
-    def clean(self):
+    def engineer(self):
+        
+        categorical_columns = ["job", "marital", "education", "default", "housing", "loan", "contact", "month", "day", "poutcome"]
+        
+        bankData_X = self.data.loc[:,self.data.columns != 'y']
+        
+        
+        
         return
     
     def transform(self):
         return
     
-    def numericalize(self):
-        return
+    def numerize(self,X=None,categorical_columns=None):
+        return pd.get_dummies(X, columns=categorical_columns)
     
     def split(self):
         return
