@@ -11,12 +11,6 @@ class BankMarketingDataProcessor():
         
         self.clustering_train_data = None
         self.clustering_test_data = None
-        
-    def clean(self):
-        return
-    
-    def transform(self):
-        return
     
     def numerize(self,X=None,categorical_columns=None):
         return pd.get_dummies(X, columns=categorical_columns)
