@@ -2,17 +2,17 @@ class BankMarketingDataSerializer(object):
     def __init__(self,serializer=None):
         self.serializer = serializer
         
-    def save(self,estimatorObject=None,filename="model.saved",location=""):
+    def save(self,estimatorObject=None,filepath="model.saved"):
             
-        dbfile = open(filename,'ab')
+        dbfile = open(filepath,'ab')
         self.serializer.dump(estimatorObject,dbfile)
         dbfile.close()
         
         return True
     
-    def load(self,filename=None):
+    def load(self,filepath=None):
         
-        dbfile = open(filename,'rb')
+        dbfile = open(filepath,'rb')
         modelObject = self.serializer.load(dbfile)
         dbfile.close()
         
