@@ -42,18 +42,17 @@ class BankMarketingDataLearner(object):
         model = cluster.fit(X=self.clustering_data)
         
         # self.serializer.save(model,"./src/model/cluster/KmeansModel.saved")
-        # self.serializer.save()
         
         return model
     
     def createDBScanModel(self):
         return
     
-    def get_scores(self,modelName=None):
+    def evaluate(self,estimator=None,X=None,y=None):
         return
     
-    def predict(self):
+    def predict(self,estimator=None,X=None):
         return
     
-    def predict_proba(self):
+    def predict_proba(self,estimator=None,X=None):
         return
