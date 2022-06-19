@@ -8,9 +8,6 @@ class BankMarketingDataProcessor():
         
         self.train_data = None
         self.test_data = None
-        
-        self.clustering_train_data = None
-        self.clustering_test_data = None
     
     def numerize(self,X=None,categorical_columns=None):
         return pd.get_dummies(X, columns=categorical_columns)

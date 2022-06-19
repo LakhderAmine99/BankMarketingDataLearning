@@ -89,9 +89,6 @@ class BankMarketingDataLearner(object):
         
         return model
     
-    def createDBScanModel(self):
-        return
-    
     def evaluate(self,estimator=None):
                 
         _accuracy = accuracy_score(y_true=self.y_test,y_pred=self.predict(estimator=estimator,X=self.X_test))
