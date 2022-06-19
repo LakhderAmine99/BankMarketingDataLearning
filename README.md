@@ -6,7 +6,7 @@ Summary: A collection of tools for machine learning
 
 ## Overview
 
-    ![alt text](https://github.com/LakhderAmine99/BankMarketingDataLearning/blob/main/architecture/structure.jpg)
+<img src="https://github.com/LakhderAmine99/BankMarketingDataLearning/blob/main/architecture/structure.jpg">
 
 ## Package
 
