@@ -4,6 +4,10 @@ Version: 0.1.0
 
 Summary: A collection of tools for machine learning
 
+## Overview
+
+    ![alt text](https://github.com/LakhderAmine99/BankMarketingDataLearning/blob/main/architecture/structure.jpg)
+
 ## Package
 
 - `scikit-learn`: A [Python](#Python) Machine Learning package.
